@@ -1,5 +1,4 @@
 # AI-VIDEO-ASSISTANT-WITH-RAG
-# AI Video Assistant With RAG
 
 A simple Python application that turns meeting or video audio into a searchable AI assistant.
 It transcribes audio, summarizes content, extracts action items, decisions, open questions, and supports chat-style queries over the transcript.
