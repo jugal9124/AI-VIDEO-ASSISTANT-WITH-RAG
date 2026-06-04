@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # AI-VIDEO-ASSISTANT-WITH-RAG
-=======
 # AI Video Assistant With RAG
 
 A simple Python application that turns meeting or video audio into a searchable AI assistant.
@@ -8,7 +6,7 @@ It transcribes audio, summarizes content, extracts action items, decisions, open
 
 ## 🚀 What it does
 
-- Downloads audio from a YouTube link or converts a local audio/video file
+- Downloads audio from a YouTube link or converts a local audio file
 - Splits audio into manageable chunks
 - Uses Whisper for speech-to-text transcription
 - Generates a meeting title and summary
@@ -26,7 +24,7 @@ It transcribes audio, summarizes content, extracts action items, decisions, open
 ## ✅ Prerequisites
 
 - Python 3.14 or newer
-- A virtual environment (recommended)
+- A virtual environment (recommended) made using `uv`
 - `ffmpeg` installed and available on your system `PATH`
 - A Mistral API key for the chatbot
 
@@ -34,16 +32,16 @@ It transcribes audio, summarizes content, extracts action items, decisions, open
 
 1. Open a terminal in the project folder.
 2. Create and activate a virtual environment:
+    Automatically active When run the Application
 
 ```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+uv init
 ```
 
 3. Install dependencies:
 
 ```powershell
-pip install -r requirements.txt
+uv add -r requirements.txt
 ```
 
 ## 🔧 Setup
@@ -101,4 +99,3 @@ pip install torchvision
 ## 🧠 Improvements
 
 This project is built to be extended with better language support, more accurate audio chunking, and additional extraction features.
->>>>>>> d60407e (complete project)
